@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+@media (min-width: 992px) {
+.navbar .d-flex {
+position: absolute;
+right: 1rem;
+color: white;
+}
+}
+
+.jumbotron .container {
+padding-top: 2rem;
+text-align: center; /* Tengahkan teks */
+}
+
+.jumbotron-fluid {
+justify-content: center; /* Tengahkan kontainer secara horizontal */
+display: flex;
+flex-direction: column; /* Susun konten secara vertikal */
+align-items: center; /* Tengahkan konten secara vertikal */
+}
+
+h1 {
+font-weight: 900;
+}
+
+#container {
+padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.column1 {
+flex: 1;
+padding: 10px;
+
+border-radius: 10px;
+}
+
+.column2 {
+flex: 1;
+padding: 10px;
+background-color: #dfdfdf;
+margin: 20px;
+border-radius: 10px;
+}
