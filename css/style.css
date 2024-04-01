@@ -83,8 +83,8 @@ border-radius: 10px;
     width: 100%;
     text-align: center;
     padding: 1px 0;
-    background-color:#55527c;
-    color: white;
+    background-color:#ddcfc5;
+    color: #1a1a1a;
 }
 
 #footer h4{
@@ -92,6 +92,8 @@ border-radius: 10px;
     margin-top: 20px;
     font-weight: 500;
 }
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;600;700&display=swap');
 
