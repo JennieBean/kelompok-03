@@ -1,0 +1,100 @@
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    background:  #fff;
+    font-family: "Poppins";
+}
+
+.kartu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Menyebarkan elemen secara horizontal */
+    width: 75vw;
+    max-width: 650px;
+    margin-top: 50px;
+    padding: 50px 30px 50px 20px;
+    background: #FEFEE3;
+    border-radius: 24px;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.kartu img {
+    max-width: 280px;
+    width: 35vw;
+    height: 300px;
+    object-fit: cover;
+    margin-left: -60px;
+    margin-right: 10px;
+    border-radius: inherit;
+    box-shadow: -5px 3px 0px 0px rgba(0,0,0,0.75);
+}
+
+.kartu h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.kartu h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.75;
+}
+
+.kartu p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+
+.kartu i {
+    display: flex;
+    border: 0;
+    padding: 16px 26px;
+    font-size: 16px;
+    color: #FF5154;
+}
+
+@media (max-width: 600px) {
+    .profile {
+        margin-top: 50px;
+    }
+
+    .kartu {
+        width: 100%;
+        margin-top: 150px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center; /* Mengatur konten ke tengah pada layar kecil */
+    }
+
+    .kartu img {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        border-radius: 100px;
+    }
+
+    .kartu h2 {
+        margin: 10px;
+    }
+
+    .kartu p {
+        margin: 10px;
+        max-width: 100%; /* Mengisi lebar maksimum untuk teks */
+    }
+}
+
+@media (max-width: 440px) {
+    .kartu img {
+        height: 45vw;
+        width: 45vw;
+        margin-top: -140px;
+    }
+}
