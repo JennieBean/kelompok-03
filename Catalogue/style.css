@@ -59,7 +59,9 @@ border-radius: 10px;
 
   .disabled {
     background-color: #8a0000;
-    color: #ffffff42;
+    color: #ffffff65;
+    cursor: not-allowed;
+    transition: opacity 0.5s ease; /* Add transition effect */
   }
 
   .card {
