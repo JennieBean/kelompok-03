@@ -85,6 +85,11 @@ body {
   .dark-mode p{
     color: #fff;
   }
+
+  .dark-mode .kartu{
+    background: #222;
+    color: #fff;
+  }
   
   footer.dark-mode {
     background-color: #222;
